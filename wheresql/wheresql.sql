@@ -15,5 +15,22 @@ SELECT COUNT(*) FROM payment WHERE amount = 0;
 SELECT customer_id, payment_date, amount FROM payment WHERE amount = 0 ORDER BY customer_id ASC;
 
 
+-- selecting payment using greater than sign
+SELECT 
+payment_id, 
+customer_id, 
+amount FROM payment 
+WHERE amount > 5.99 
+ORDER BY amount ASC;
+
+
+
+-- selecting payment using >= sign
+SELECT
+payment_id, 
+customer_id, 
+amount FROM payment 
+WHERE amount >= 9.99
+ORDER BY amount ASC;
 
 
