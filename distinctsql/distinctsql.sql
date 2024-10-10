@@ -15,4 +15,13 @@ SELECT DISTINCT rating, rental_duration FROM public.film;
 SELECT DISTINCT amount FROM public.payment ORDER BY amount DESC;
 
 -- Without Distinct
+-- Using limit to limit the amount of rows in the results
+
+-- it is also a good idea to use the "LIMIT" when getting an idea of a table in case 
+-- the table is large and can take time to resolve.
+
+SELECT DISTINCT amount FROM public.payment ORDER BY amount DESC LIMIT 5;
+
+SELECT address FROM public.address ORDER BY address LIMIT 5;
+
 SELECT amount FROM public.payment ORDER BY amount DESC;

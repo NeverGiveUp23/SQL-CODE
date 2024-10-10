@@ -3,3 +3,4 @@ Using the "DISTINCT" allows me to pull data and remove the duplicate values if t
 
 This is the outcome without using DISTINCT in your query. 
 <img width="1008" alt="Screenshot 2024-10-18 at 5 05 26 PM" src="https://github.com/user-attachments/assets/224be084-c5cd-4898-aa0e-cc68cd80d52e">
+ 
