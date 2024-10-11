@@ -13,3 +13,6 @@ SELECT DISTINCT rating, rental_duration FROM public.film;
 
 -- Task: Get the prices of payments from high to low.
 SELECT DISTINCT amount FROM public.payment ORDER BY amount DESC;
+
+-- Without Distinct
+SELECT amount FROM public.payment ORDER BY amount DESC;
