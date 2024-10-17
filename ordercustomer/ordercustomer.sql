@@ -22,5 +22,6 @@ SELECT * FROM public.payment ORDER BY customer_id, amount DESC;
 -- is a quick way to display data.
 SELECT * FROM public.customer ORDER BY last_name DESC, first_name DESC;
 
+-- Ordering by fist name and last name but we can use numbers to associate them as well.
 SELECT first_name, last_name, email FROM public.customer ORDER BY 2 DESC, 1 DESC;
 
